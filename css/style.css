@@ -1,0 +1,159 @@
+
+
+body {
+  margin: 0;
+  font-family: "Open Sans", Arial, Tahoma;
+  font-size: 16px;
+  color: #363636;
+  background-color: #ededed;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  padding: 15px;
+  margin: 80px auto 15px auto;
+  background: #fff;
+}
+
+
+
+.clearfix::after {
+  display: block;
+  height: 0;
+  clear: both;
+  content: "";
+}
+
+
+
+header {
+  margin-top: -85px;
+  text-align: center;
+}
+
+
+
+header img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+
+
+h1 {
+  font-size: 30px;
+
+}
+
+h1 span {
+  color:red;
+}
+
+
+
+h2 {
+  font-size: 20px;
+  color: red;
+ 
+}
+
+h2::before {
+  margin-right: 5px;
+
+}
+
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+
+
+.educationLeft {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.educationRight {
+  float: left;
+  width: 80%;
+ 
+
+}
+
+#educationList .school {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#educationList .year {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+#contactList li {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+}
+
+
+
+#contactList li i {
+  padding: 10px;
+  margin-right: 30px;
+  color: blue;
+}
+
+
+
+
+#skillsList li {
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+}
+
+
+
+#hobbiesList li {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+}
+
+#rightContent {
+  float: left;
+  width: 40%;
+}
+
+#leftContent {
+  float: left;
+  width: 60%;
+  padding-right: 30px;
+}
+
+
